@@ -1,0 +1,204 @@
+.sidebar {
+  font-family: Sans-Serif;
+  background-color: #f2f2f2;
+  color: #333;
+  top: 0;
+  left: 0;
+  display: grid;
+  position: fixed;
+  overflow-x: hidden;
+  width: 16vw;
+  height: 100%;
+  z-index: 1;
+  border: 2px solid #666;
+  border-top: 0;
+  border-left: 0;
+}
+
+#navbar {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: -20px;
+}
+
+h2 {
+  font-size: 24px
+}
+
+.js {
+  padding: 0px 0px;
+}
+
+.intro {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+
+.whatyou {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.javajs {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.helloworld {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.variables {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.declavar {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.varscope {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.globalvar {
+  padding: 14px 20px;
+  border-bottom: 1px solid black;
+}
+.constants {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.datatypes {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.ifelse {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.while {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.functiondec {
+  border-bottom: 1px solid black;
+  padding: 14px 20px;
+}
+.reference {
+  padding: 14px 20px;
+  border-bottom: 1px solid black;
+ }
+
+
+#main-doc {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 15.5vw;
+  width: 1fr;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  height: 1fr;
+  color: #333;
+  background-color: #fcfcfc;
+}
+
+.main-section {
+  font-family: Lato;
+  font-size: 16px;
+  padding: 10px 40px;
+}
+
+li {
+  margin-left: 60px;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 12px;
+  width: 96%;
+  height: auto;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+@media (max-width: 1600px) {
+ 
+  h1 {
+    font-size: 16px;
+    padding: 0px 20px 0;
+    }
+  #nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+}
+  @media (max-width: 1000px) {
+    .sidebar {
+      width: 180px;
+    }
+    #main-doc {
+      margin-left: 180px;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+      display: block;
+      width: 99vw;
+      height: 26vh;
+    }
+    #main-doc {
+      margin-top: 26vh;
+      padding: 0px 20px;
+      margin-left: -6vw;
+    }
+  ul {
+    margin-left: -10px;
+  }
+  li {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    display: block;
+    width: 99vw;
+    height: 24vh;
+  }
+  h1, h2, h3 {
+    font-size: 18px;
+  }
+  #main-doc {
+    margin-top: 24vh;
+    padding: 0px;
+    margin-left: -6vw;
+   }
+  ul {
+    margin-left: -10px;
+  }
+  p {
+    font-size: 14px;
+  }
+  li {
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: 10px;
+    list-style-position: inside;
+  } 
+  .code {
+    font-size: 12px;
+    padding: 10px;
+    width: 80vw;
+  }
+}
